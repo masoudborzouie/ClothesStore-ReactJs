@@ -4,7 +4,7 @@ import { route } from "./../../routes";
 
 function Index() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ps-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ps-5">
       <Link class="navbar-brand" to={route.root}>
         MassShop
       </Link>
