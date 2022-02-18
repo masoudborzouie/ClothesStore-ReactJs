@@ -1,0 +1,11 @@
+.products {
+  height: 200px;
+}
+.img-fluid {
+  height: 80px;
+  width: 40px;
+}
+.price {
+  position: relative;
+  vertical-align: bottom;
+}
