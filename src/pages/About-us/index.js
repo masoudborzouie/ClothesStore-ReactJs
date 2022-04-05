@@ -11,6 +11,7 @@ export default function Index() {
         vel voluptates! Sed ut, et consequuntur natus eum odio qui recusandae
         veniam laudantium amet, inventore eaque dolorem.
       </p>
+      <p>khgkfghg<p></p>
     </div>
   );
 }
