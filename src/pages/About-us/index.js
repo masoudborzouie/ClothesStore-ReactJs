@@ -12,6 +12,7 @@ export default function Index() {
         veniam laudantium amet, inventore eaque dolorem.
       </p>
       <p>khgkfghg</p>
+      <p>kjhdkjhkj 0-38</p>
       <p>sas</p>
     </div>
   );
