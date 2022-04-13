@@ -13,6 +13,7 @@ export default function Index() {
       </p>
       <p>khgkfghg</p>
       <p>kjhdkjhkj 0-38</p>
+      const [fdd, setfdd] = useState(second)
       <p>sas</p>
     </div>
   );
