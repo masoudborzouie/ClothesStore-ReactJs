@@ -6,15 +6,10 @@ export default function Index() {
       <h3 className="text-info w-50">About Us</h3>
       <p className="m-3 p-3 text-start text-wrap">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dicta
-        beatae assumenda nulla dolor expedita commodi atque molestias quis
-        ullam, consectetur reiciendis, esse rerum maxime asperiores obcaecati
-        vel voluptates! Sed ut, et consequuntur natus eum odio qui recusandae
-        veniam laudantium amet, inventore eaque dolorem.
+        beatae assumenda consequuntur natus eum odio qui recusandae veniam
+        laudantium amet, inventore eaque dolorem.
       </p>
-      <p>khgkfghg</p>
-      <p>kjhdkjhkj 0-38</p>
-      const [fdd, setfdd] = useState(second)
-      <h4>df ffdgtrgh tyjgj</h4>
+
       <p>sas</p>
     </div>
   );
