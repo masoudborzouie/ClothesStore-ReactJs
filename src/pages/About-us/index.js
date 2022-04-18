@@ -9,6 +9,12 @@ export default function Index() {
         beatae assumenda consequuntur natus eum odio qui recusandae veniam
         laudantium amet, inventore eaque dolorem.
       </p>
+      <h3>
+        {" "}
+        dolor sit, amet consectetur adipisicing elit. Dolore dicta beatae
+        assumenda consequuntur natus eum odio qui recusandae veniam laudantium
+        amet, inventor
+      </h3>
 
       <p>sas</p>
     </div>
