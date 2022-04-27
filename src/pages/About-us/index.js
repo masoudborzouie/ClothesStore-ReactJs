@@ -15,8 +15,16 @@ export default function Index() {
         assumenda consequuntur natus eum odio qui recusandae veniam laudantium
         amet, inventor
       </h3>
-
-      <p>sas</p>
+      <p>
+        sasr sit, amet consectetur adipisicing elit. Dolore dicta beatae
+        assumenda consequuntur natus eum odio qui recusandae veniam laudantium
+        amet, invento
+      </p>
+      <p>
+        asr sit, amet consectetur adipisicing elit. Dolore dicta beatae
+        assumenda consequuntur natus eum odio qui recusandae veniam laudantium
+        ausemet, invento
+      </p>
     </div>
   );
 }
