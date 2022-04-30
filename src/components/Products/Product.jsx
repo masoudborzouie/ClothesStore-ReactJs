@@ -1,7 +1,9 @@
 import React from "react";
+import { connect } from "react-redux";
+import { buyCloth } from "../../Redux";
 import { Card, Button } from "react-bootstrap";
 
-function Product({ title, description, image, price }) {
+function Product({ title, description, image, price }, props) {
   return (
     <div className=" row ">
       <Card style={{ height: "37rem" }} className="m-5">
@@ -19,10 +21,24 @@ function Product({ title, description, image, price }) {
           <Button variant="info" className="btn price">
             {price} $
           </Button>
+          <hr></hr>
+          <Button onClick={props.buyCloth}>Buy</Button>
+          <h6>Number of Articles - {props.numOfCloth}</h6>
         </Card.Body>
       </Card>
     </div>
   );
 }
 
-export default Product;
+const mapStateToProps = (state) => {
+  return {
+    numOfCloth: state.numOfCloth,
+  };
+};
+const mapDispatchToProps = (dispatch) => {
+  return {
+    buyCloth: () => dispatch(buyCloth()),
+  };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(Product);
